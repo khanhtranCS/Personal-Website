@@ -1,83 +1,48 @@
-<?php
-include_once "common.php";
-getHeader();
-?>	
-	<body>
-		<div class="panel-group">
-			<div class="panel panel-default">
-				<div class="panel-heading"><h4>My School (expected graduated in June 2017)</h4></div>
-				<div class="panel-body">
-					<div class="row">
-						<div class="col-md-4">
-							<a href="http://www.washington.edu/" target="_blank"><img src="uw.gif" width="200" height="190" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-md-4">
-							<a href="https://www.cs.washington.edu/" target="_blank"><img src="uwcs.png" width="200" height="190" class="img-responsive"></a>
-						</div>
-					</div>
-				</div>
-			</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
 
+<!-- count particles -->
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
 
-			<div class="panel panel-default">
-				<div class="panel-heading"><h3>Professional Information</h3></div>
-				<div class="panel-body">
-				<a href="https://github.com/khanhtranCS" target="_blank"><img src="githubPro.png" width="200" height="190"></a>
+<!-- particles.js container -->
+<div id="particles-js"></div>
 
-				<a href="https://www.linkedin.com/in/khanh-tran-86a420112" target="_blank"><img src="linkedIn.png" width="200" height="190"></a>
-				</div>
-			</div>
+<!-- scripts -->
+<script src="particles/particles.js"></script>
+<script src="demo/js/app.js"></script>
 
-			<div class="panel panel-default">
-				<div class="panel-heading"><h4>My Experiences</h4></div>
-				<div class="panel-body">
-					<div class="row">
-						<div class="col-md-3">
-							<a href="index.html"><img src="java.jpg" width="200" height="190" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="index.html"><img src="eclipse.jpg" width="200" height="190" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="index.html"><img src="html.jpg" width="200" height="190" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-md-3">
-						<a href="index.html"><img src="css.jpg" width="200" height="50" class="img-responsive">
-						</a>
-						</div>
-						<div class="col-md-3">
-						<a href="index.html"><img src="ASM.png" width="200" height="50" class="img-responsive">
-						</a>
-						</div>
-						<div class="col-md-3">
-						<a href="index.html"><img src="linux.jpg" width="200" height="50" class="img-responsive">
-						</a>
-						</div>
-						<div class="col-md-3">
-						<a href="index.html"><img src="C.png" width="200" height="50" class="img-responsive">
-						</a>
-						</div>
-						<div class="col-md-3">
-						<a href="index.html"><img src="twitter-bootstrap.jpg" width="200" height="50" class="img-responsive">
-						</a>
-						</div>
-						<div class="col-md-4">
-						<a href="index.html"><img src="github.jpg" width="200" height="190" class="img-responsive">
-						</a>
-						</div>
+<!-- stats.js -->
+<script src="particles/demo/js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
 
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
 </body>
-
-<?php
-getFooter();
-?>
+</html>

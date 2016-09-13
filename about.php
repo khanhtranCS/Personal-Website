@@ -2,7 +2,6 @@
 include_once "common.php";
 getHeader();
 ?>	
-	<body>
 	<br></br>
 	<div class="container">
 		<img src="myself.jpg" class="img-responsive" alt="Khanh Tran" width="600" height="400" align="center" style="box-shadow: 10px 10px 10px gray">
@@ -12,7 +11,6 @@ getHeader();
 			</div>
 
 		</div>
-	</body>
 <?php
 getFooter();
 ?>
