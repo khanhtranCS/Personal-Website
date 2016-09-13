@@ -1,0 +1,21 @@
+h1, #header {
+	text-align: center;
+}
+
+td {
+	vertical-align: top;
+}
+.level_edu {
+	font-style: italic;
+}
+.course_col {
+	float: left;
+	padding-right: 30px;
+}
+#skills {
+	clear:both;
+}
+
+#project ul {
+	padding: none;
+}
