@@ -17,7 +17,7 @@
     <h1 id="name">Khanh Tran</h1>
     <div id="link">
       <span><a href="about.php">about</a></span>
-      <span><a href="resume.html">r&#233;sum&#233;</a></span>
+      <span><a href="resume.php">r&#233;sum&#233;</a></span>
       <span><a href="project.php">projects</a></span>
       <span><a href="contact.php">contact</a></span>
       <span><a href="https://github.com/khanhtranCS">github</a></span>
