@@ -1,21 +1,38 @@
-h1, #header {
+#resume_img {
+	width: 70%;
+	height: 80%;
+}
+
+h1 {
+	clear:both;
+	margin-bottom: 0px;
+	opacity: 0.5;
+}
+
+body {
 	text-align: center;
 }
 
-td {
-	vertical-align: top;
-}
-.level_edu {
-	font-style: italic;
-}
-.course_col {
-	float: left;
-	padding-right: 30px;
-}
-#skills {
-	clear:both;
+#link {
+	float: right;
 }
 
-#project ul {
-	padding: none;
+#link span a{
+	font-size: 15px;
+	font-style: bold italic;
+	color: black
+}
+
+#link span a:hover {
+	text-decoration: underline;
+}
+
+#link span:after {
+	content: " / ";
+	color: #999;
+	font-size: 15px;
+}
+
+#link span:last-of-type:after {
+	content: "";
 }

@@ -121,7 +121,7 @@ particlesJS('particles-js', {
   "config_demo": {
     "hide_card": false,
     "background_color": "#ffffff",
-    "background_image": "",
+    "background_image": "http://www.opli.net/media/2146/Princeton-Andromeda-Galaxy-img-aug-2.png",
     "background_position": "50% 50%",
     "background_repeat": "no-repeat",
     "background_size": "cover"

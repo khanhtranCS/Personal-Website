@@ -2,32 +2,25 @@
 	function getHeader() {
 ?>
 	<!DOCTYPE html>
-<header>
-	<title>My Personal Website for resume</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+<html>
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="resume.css">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-	<script type="text/javascript" src="interact.js"></script>
-</header>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
 <body>
-		<nav>
-			<h1>
-				My Personal Webpage
-			</h1>
-			<div class="btn-group">
-				<a href="index.php" class="btn btn-primary">Home</a>
-				<a href="contact.php" class="btn btn-primary">Contact</a>
-				<a href="about.php" class="btn btn-primary">About</a>
-				<a href="https://github.com/khanhtranCS" target="_blank" class="btn btn-primary">GitHub</a>
-				<a target="_blank" href="https://www.linkedin.com/in/khanh-tran-86a420112" target="_blank" class="btn btn-primary">Linkedin</a>
-				<a href="#" class="btn btn-primary">Personal Project</a>
-				<a href="#" class="btn btn-primary">Tutorials</a>
-			</div>
-		</nav>
+
+	<div id="link">
+	  <span><a href="index.php">home</a></span> 
+      <span><a href="about.php">about</a></span>
+      <span><a href="resume.html">r&#233;sum&#233;</a></span>
+      <span><a href="project.php">projects</a></span>
+      <span><a href="contact.php">contact</a></span>
+      <span><a href="https://github.com/khanhtranCS">github</a></span>
+      <span><a href="https://www.linkedin.com/">linkedin</a></span>
+      <span><a href="else.php">...</a>
+    </div>
 <?php
 }
 	function getFooter() {
