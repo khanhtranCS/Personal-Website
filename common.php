@@ -13,9 +13,9 @@
 </head>
 <body>
 	<div id="link">
-	  <span><a href="index.php">home</a></span> 
+	  <span><a href="index.about">home</a></span> 
       <span><a href="about.php">about</a></span>
-      <span><a href="resume.php">r&#233;sum&#233;</a></span>
+      <span><a href="http://khanhtrancs.netne.net/personal-webpage/resume">r&#233;sum&#233;</a></span>
       <span><a href="project.php">projects</a></span>
       <span><a href="contact.php">contact</a></span>
       <span><a href="else.php">...</a>
