@@ -1,0 +1,36 @@
+#lst_proj {
+	text-align: left;
+	font-size: 17px;
+	display: inline-block;
+}
+#project_div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}  
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+   0% {opacity: 1;}
+   100% {opacity: 0;} 
+} 
+
+#name #detail {
+	-webkit-animation: fadeOut 2s;
+	animation: fadeOut 2s;
+	display: none;
+}
+
+#name:hover #detail {
+	display: block;
+	-webkit-animation: fadeIn 2s;
+	animation: fadeIn 2s;
+}
+

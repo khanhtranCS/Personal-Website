@@ -25,7 +25,8 @@
 }
 	function getFooter() {
 ?>
-	<footer> Copyright &copy;2016 Personal Page designed by <a href="mailto:ktran035@uw.edu">Khanh Duc Tran</a> </footer>
+	<hr/>
+	<footer><span id="copyright">&copy;2015-2016 <a href="mailto:ktran035@uw.edu">Khanh Duc Tran</a>. All rights reserved.</span> </footer>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>

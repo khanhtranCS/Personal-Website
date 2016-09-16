@@ -6,3 +6,6 @@ getHeader();
 	<div><a href="resume.pdf"><img src="resume.jpg" alt="resume" id="resume_img"></a></div>
 </body>
 </html>
+<?php
+getFooter();
+?>
