@@ -30,7 +30,5 @@
 <script src="particles-lib/particles.js"></script>
 <script src="particles-lib/particles-active/js/app.js"></script>
 
-</script>
-
 </body>
 </html>

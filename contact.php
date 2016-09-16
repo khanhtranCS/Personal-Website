@@ -4,7 +4,6 @@ getHeader();
 ?>
 <link rel="stylesheet" type="text/css" href="contact.css">
 <br></br>
-<div class="container">
 	<div class="jumbotron" id="contact_div" style="box-shadow: 10px 10px 8px gray">
 		<h2>My Contact Information</h2>
 		<p>Email Me:
@@ -27,8 +26,6 @@ getHeader();
 			<a href="contact.html">(206)-356-8561</a>
 
 		</p>
-
-	</div>
 
 </div>
 <?php
