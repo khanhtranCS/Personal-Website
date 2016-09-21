@@ -3,6 +3,10 @@
 	height: 50%;
 }
 
+h1 {
+	font-family: cursive, 'sans-serif';
+}
+
 #about {
 	text-align: left;
 	opacity: 0.7;

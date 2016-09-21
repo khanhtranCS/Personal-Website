@@ -1,0 +1,19 @@
+h1 {
+	font-family: cursive, 'sans-serif';
+	margin-top: 40px;
+}
+.head-row {
+	background-color: #e5e5e5;
+	text-align: center;
+	border-top: 1px gray;
+	border-bottom: 1px gray;
+}
+.table {
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
+ul>li {
+	list-style: none;
+}

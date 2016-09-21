@@ -16,10 +16,10 @@
   <div id="main-intro">
     <h1 id="name">Khanh Tran</h1>
     <div id="link">
-      <span><a href="about.php">about</a></span>
-      <span><a href="resume.php">r&#233;sum&#233;</a></span>
-      <span><a href="project.php">projects</a></span>
-      <span><a href="contact.php">contact</a></span>
+      <span><a href="http://khanhtrancs.info/about">about</a></span>
+      <span><a href="http://khanhtrancs.info/resume">r&#233;sum&#233;</a></span>
+      <span><a href="http://khanhtrancs.info/project">projects</a></span>
+      <span><a href="http://khanhtrancs.info/contact">contact</a></span>
       <span><a href="https://github.com/khanhtranCS" target="_blank">github</a></span>
       <span><a href="https://www.linkedin.com/in/khanh-tran-527353129?trk=hp-identity-name" target="_blank">linkedin</a></span>
     </div>
