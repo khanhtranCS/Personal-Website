@@ -2,7 +2,7 @@
 include_once 'common.php';
 getHeader();
 ?>
-<link rel="stylesheet" type="text/css" href="http://khanhtrancs.info/everything">
+<link rel="stylesheet" type="text/css" href="http://khanhtrancs.info/everything.css">
 <h1>All About Me</h1>
 <table class="table">
 	<tr><th class="head-row">About</th></tr>
