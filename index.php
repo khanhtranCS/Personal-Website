@@ -21,7 +21,7 @@
       <span><a href="http://khanhtrancs.info/project">projects</a></span>
       <span><a href="http://khanhtrancs.info/contact">contact</a></span>
       <span><a href="https://github.com/khanhtranCS" target="_blank">github</a></span>
-      <span><a href="https://www.linkedin.com/in/khanh-tran-527353129?trk=hp-identity-name" target="_blank">linkedin</a></span>
+      <span><a href="https://www.linkedin.com/in/khanh-tran-86a420112" target="_blank">linkedin</a></span>
     </div>
    </div>
 </div>

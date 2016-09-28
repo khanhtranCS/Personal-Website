@@ -32,7 +32,7 @@ getHeader();
 	<tr><th class="head-row">Contact</th></tr>
 	<tr><td>
 			<div><a href="mailto:ktran035@uw.edu">Email</a></div>
-			<div><a href="https://www.linkedin.com/in/khanh-tran-527353129?trk=hp-identity-name" target="_blank">LinkedIn</a></div>
+			<div><a href="https://www.linkedin.com/in/khanh-tran-86a420112" target="_blank">LinkedIn</a></div>
 			<div><a href="https://www.facebook.com/khanh.tran.9440234" target="_blank">Facebook</a></div>
 	</td></tr>
 </table>
